@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ae@by-%juvztj!53_8v7pr7uw8&u*vc2y_r2$58-jp!pjmi+l#
 DEBUG = 'RENDER' not in os.environ
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://libarayapi.onrender.com"]
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:
